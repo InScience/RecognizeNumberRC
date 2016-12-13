@@ -1,0 +1,22 @@
+# full tutorial http://www.circuitbasics.com/raspberry-pi-i2c-lcd-set-up-and-programming/
+
+#enable i2c module
+sudo raspi-config
+#Advanced Settings" -> enable i2c
+reboot
+sudo apt-get install i2c-tools
+#install pyton lib for I2C
+sudo apt-get install python-smbus
+reboot
+i2cdetect -y 1
+#check if you have libi2c-dev installed
+
+sudo apt-get install libi2c-dev
+
+#now re-make wiringPI in wiring PI dir
+./build clean
+./build
+#or ugrade
+git pull; ./build
+
+#add library to codeblocks linker -lwiringPi and copy paste code from https://www.sunfounder.com/learn/sensor-kit-v2-0-for-b/lesson-30-i2c-lcd1602-sensor-kit-v2-0-for-b.html
