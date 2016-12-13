@@ -1,0 +1,317 @@
+# depslib dependency file v1.0
+1465980339 source:/home/pi/Desktop/Projects/alprtest/main.cpp
+	<algorithm>
+	<cstdio>
+	<sstream>
+	<iostream>
+	<fstream>
+	<iterator>
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"/home/pi/openalpr/src/tclap/CmdLine.h"
+	"/home/pi/openalpr/src/openalpr/support/filesystem.h"
+	"/home/pi/openalpr/src/openalpr/support/timing.h"
+	"/home/pi/openalpr/src/openalpr/support/platform.h"
+	"/home/pi/openalpr/src/openalpr/openalpr/src/video/videobuffer.h"
+	"/home/pi/openalpr/src/openalpr/motiondetector.h"
+	"/home/pi/openalpr/src/openalpr/alpr.h"
+
+1465284187 /home/pi/openalpr/src/tclap/CmdLine.h
+	"SwitchArg.h"
+	"MultiSwitchArg.h"
+	"UnlabeledValueArg.h"
+	"UnlabeledMultiArg.h"
+	"XorHandler.h"
+	"HelpVisitor.h"
+	"VersionVisitor.h"
+	"IgnoreRestVisitor.h"
+	"CmdLineOutput.h"
+	"StdOutput.h"
+	"Constraint.h"
+	"ValuesConstraint.h"
+	<string>
+	<vector>
+	<list>
+	<iostream>
+	<iomanip>
+	<algorithm>
+	<stdlib.h>
+
+1465284187 /home/pi/openalpr/src/tclap/SwitchArg.h
+	<string>
+	<vector>
+	"Arg.h"
+
+1465284187 /home/pi/openalpr/src/tclap/Arg.h
+	<config.h>
+	<string>
+	<vector>
+	<list>
+	<iostream>
+	<iomanip>
+	<cstdio>
+	<sstream>
+	<strstream>
+	"ArgException.h"
+	"Visitor.h"
+	"CmdLineInterface.h"
+	"ArgTraits.h"
+	"StandardTraits.h"
+
+1465284187 /home/pi/openalpr/src/tclap/ArgException.h
+	<string>
+	<exception>
+
+1465284187 /home/pi/openalpr/src/tclap/Visitor.h
+
+1465284187 /home/pi/openalpr/src/tclap/CmdLineInterface.h
+	<string>
+	<vector>
+	<list>
+	<iostream>
+	<algorithm>
+
+1465284187 /home/pi/openalpr/src/tclap/ArgTraits.h
+
+1465284187 /home/pi/openalpr/src/tclap/StandardTraits.h
+	<config.h>
+
+1465284187 /home/pi/openalpr/src/tclap/MultiSwitchArg.h
+	<string>
+	<vector>
+	"SwitchArg.h"
+
+1465284187 /home/pi/openalpr/src/tclap/UnlabeledValueArg.h
+	<string>
+	<vector>
+	"ValueArg.h"
+	"OptionalUnlabeledTracker.h"
+
+1465284187 /home/pi/openalpr/src/tclap/ValueArg.h
+	<string>
+	<vector>
+	"Arg.h"
+	"Constraint.h"
+
+1465284187 /home/pi/openalpr/src/tclap/Constraint.h
+	<string>
+	<vector>
+	<list>
+	<iostream>
+	<iomanip>
+	<algorithm>
+
+1465284187 /home/pi/openalpr/src/tclap/OptionalUnlabeledTracker.h
+	<string>
+
+1465284187 /home/pi/openalpr/src/tclap/UnlabeledMultiArg.h
+	<string>
+	<vector>
+	"MultiArg.h"
+	"OptionalUnlabeledTracker.h"
+
+1465284187 /home/pi/openalpr/src/tclap/MultiArg.h
+	<string>
+	<vector>
+	"Arg.h"
+	"Constraint.h"
+
+1465284187 /home/pi/openalpr/src/tclap/XorHandler.h
+	"Arg.h"
+	<string>
+	<vector>
+	<algorithm>
+	<iostream>
+
+1465284187 /home/pi/openalpr/src/tclap/HelpVisitor.h
+	"CmdLineInterface.h"
+	"CmdLineOutput.h"
+	"Visitor.h"
+
+1465284187 /home/pi/openalpr/src/tclap/CmdLineOutput.h
+	<string>
+	<vector>
+	<list>
+	<iostream>
+	<iomanip>
+	<algorithm>
+
+1465284187 /home/pi/openalpr/src/tclap/VersionVisitor.h
+	"CmdLineInterface.h"
+	"CmdLineOutput.h"
+	"Visitor.h"
+
+1465284187 /home/pi/openalpr/src/tclap/IgnoreRestVisitor.h
+	"Visitor.h"
+	"Arg.h"
+
+1465284187 /home/pi/openalpr/src/tclap/StdOutput.h
+	<string>
+	<vector>
+	<list>
+	<iostream>
+	<algorithm>
+	"CmdLineInterface.h"
+	"CmdLineOutput.h"
+	"XorHandler.h"
+	"Arg.h"
+
+1465284187 /home/pi/openalpr/src/tclap/ValuesConstraint.h
+	<string>
+	<vector>
+	"Constraint.h"
+	<config.h>
+	<sstream>
+	<strstream>
+
+1465284187 /home/pi/openalpr/src/openalpr/support/filesystem.h
+	<windows.h>
+	"windows/dirent.h"
+	"windows/utils.h"
+	"windows/unistd_partial.h"
+	<dirent.h>
+	<unistd.h>
+	<stdlib.h>
+	<sys/stat.h>
+	<fstream>
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<vector>
+	<errno.h>
+
+1465284187 /home/pi/openalpr/src/openalpr/support/windows/dirent.h
+	<stdio.h>
+	<stdarg.h>
+	<windef.h>
+	<winbase.h>
+	<wchar.h>
+	<string.h>
+	<stdlib.h>
+	<malloc.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<errno.h>
+
+1465284187 /home/pi/openalpr/src/openalpr/support/windows/utils.h
+	<math.h>
+
+1465284187 /home/pi/openalpr/src/openalpr/support/windows/unistd_partial.h
+	<stdlib.h>
+	<io.h>
+	<process.h>
+
+1465284187 /home/pi/openalpr/src/openalpr/support/timing.h
+	<iostream>
+	<ctime>
+	<stdint.h>
+	<windows.h>
+	<sys/time.h>
+	<mach/clock.h>
+	<mach/mach.h>
+
+1465284187 /home/pi/openalpr/src/openalpr/support/platform.h
+	<string.h>
+	<sstream>
+	<windows.h>
+	<unistd.h>
+
+1465306909 /home/pi/openalpr/src/openalpr/openalpr/src/video/videobuffer.h
+	<cstdio>
+	<stdexcept>
+	<sstream>
+	"opencv2/highgui/highgui.hpp"
+	"support/filesystem.h"
+	"support/tinythread.h"
+	"support/platform.h"
+
+1465284187 /home/pi/openalpr/src/openalpr/openalpr/src/video/support/filesystem.h
+	<windows.h>
+	"windows/dirent.h"
+	"windows/utils.h"
+	"windows/unistd_partial.h"
+	<dirent.h>
+	<unistd.h>
+	<stdlib.h>
+	<sys/stat.h>
+	<fstream>
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<vector>
+	<errno.h>
+
+1465284187 /home/pi/openalpr/src/openalpr/openalpr/src/video/support/windows/dirent.h
+	<stdio.h>
+	<stdarg.h>
+	<windef.h>
+	<winbase.h>
+	<wchar.h>
+	<string.h>
+	<stdlib.h>
+	<malloc.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<errno.h>
+
+1465284187 /home/pi/openalpr/src/openalpr/openalpr/src/video/support/windows/utils.h
+	<math.h>
+
+1465284187 /home/pi/openalpr/src/openalpr/openalpr/src/video/support/windows/unistd_partial.h
+	<stdlib.h>
+	<io.h>
+	<process.h>
+
+1465284187 /home/pi/openalpr/src/openalpr/openalpr/src/video/support/tinythread.h
+	<windows.h>
+	<pthread.h>
+	<signal.h>
+	<sched.h>
+	<unistd.h>
+	<ostream>
+
+1465284187 /home/pi/openalpr/src/openalpr/openalpr/src/video/support/platform.h
+	<string.h>
+	<sstream>
+	<windows.h>
+	<unistd.h>
+
+1465284187 /home/pi/openalpr/src/openalpr/motiondetector.h
+	"opencv2/opencv.hpp"
+	"utility.h"
+
+1465284187 /home/pi/openalpr/src/openalpr/utility.h
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"constants.h"
+	"support/timing.h"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/core/core.hpp"
+	"binarize_wolf.h"
+	<vector>
+	"config.h"
+
+1465284187 /home/pi/openalpr/src/openalpr/constants.h
+
+1465284187 /home/pi/openalpr/src/openalpr/binarize_wolf.h
+	"support/filesystem.h"
+	<stdio.h>
+	<iostream>
+	"opencv2/opencv.hpp"
+
+1465284187 /home/pi/openalpr/src/openalpr/config.h
+	"constants.h"
+	<stdio.h>
+	<iostream>
+	<vector>
+	<stdlib.h>
+	<math.h>
+
+1465284187 /home/pi/openalpr/src/openalpr/alpr.h
+	<iostream>
+	<vector>
+	<fstream>
+	<stdint.h>
+
