@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1482241113 source:/home/pi/Desktop/Projects/RestClientPost/main.cpp
+	<iostream>
+	<fstream>
+	"Poco/Net/HTTPClientSession.h"
+	"Poco/Net/HTTPRequest.h"
+	"Poco/Net/HTTPResponse.h"
+	"Poco/StreamCopier.h"
+	"Poco/JSON/JSON.h"
+	"Poco/JSON/Object.h"
+	<Poco/Path.h>
+	<Poco/URI.h>
+	"Poco/Net/HTMLForm.h"
+	"Poco/Net/StringPartSource.h"
+	"Poco/Base64Encoder.h"
+	<sstream>
+	<iomanip>
+	<string>
+	<opencv/cv.h>
+	<opencv/highgui.h>
+	<wiringPi.h>
+	<wiringPiI2C.h>
+
